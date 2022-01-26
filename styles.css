@@ -1,0 +1,59 @@
+@font-face {
+    font-family:"Lato";
+    src: url(".\fontLato\Lato-Regular.ttf");
+  }
+body{
+    font-family:"Arial", serif;
+}
+header{
+    display: flex;
+
+    background: linear-gradient(to bottom, #2977B5, rgb(109, 161, 177));
+    color:white;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.containerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+    color:#007BC4;
+    font-weight: bold;
+    font-size: 20px;
+}
+.containerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorImage{
+    padding: 10% 0;
+    width: 70%;
+}
+.form{
+    width: 95%;
+    margin: 2% 0;
+}
+input{
+    background-color: white;
+    border:1px solid #335281;
+    width: 100%;
+    margin: 1% ;
+    padding: 2% 0 2% 2% ;
+}
+.containerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0;
+}
+button{
+    color:white;
+    border: 0;
+    border-radius: 0;
+    background-color: #007BC4;
+    padding: 2% 5%;
+    
+}
